@@ -1,0 +1,17 @@
+<div class="osvetlenie">
+	<table width = "40%", align = "center", id ="wt">
+		<tr>
+			<th><%= link_to image_tag("sun.png", alt: "Солнце"),       planet_path(Planet.all.find_by_id(9)) %>Солнце</th>
+			<th><%= link_to image_tag("mercury.png", alt: "Меркурий"), planet_path(Planet.all.find_by_id(1)) %>Меркурий</th>
+			<th><%= link_to image_tag("venera.png", alt: "Венера"),    planet_path(Planet.all.find_by_id(2)) %>Венера</th>
+			<th><%= link_to image_tag("earth.png", alt: "Земля"),      planet_path(Planet.all.find_by_id(3)) %>Земля</th>
+			<th><%= link_to image_tag("mars.png", alt: "Марс"),        planet_path(Planet.all.find_by_id(4)) %>Марс</th>
+			<th><%= link_to image_tag("jupiter.png", alt: "Юпитер"),   planet_path(Planet.all.find_by_id(5)) %>Юпитер</th>
+			<th><%= link_to image_tag("saturn.png", alt: "Сатурн"),    planet_path(Planet.all.find_by_id(6)) %>Сатурн</th>
+			<th><%= link_to image_tag("uran.png", alt: "Уран"),        planet_path(Planet.all.find_by_id(7)) %>Уран</th>
+			<th><%= link_to image_tag("neptun.png", alt: "Нептун"),    planet_path(Planet.all.find_by_id(8)) %>Нептун</th>
+		</tr>
+	</table>
+</div>
+
+<%= render 'shared/ss' %>

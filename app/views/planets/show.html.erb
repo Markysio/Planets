@@ -1,0 +1,158 @@
+<div class = "center_main_text", id="wt">
+	<%= image_tag @planet.picture.url if @planet.picture? %>
+	<h3><%= @planet.name %></h3>
+
+<% if @planet.id == 1 %> 
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>3,3<sup>.</sup>10<sup>23</sup>кг. (0,055 массы Земли)</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>4870 км. (0,38 диаметра Земли)</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>5,43 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>максимум 430 <sup>o</sup>C, минимум -180 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>58,65 земных суток</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>0,387 а.е., то есть 58 млн.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>88 земных суток</th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>47,9 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>3,7 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+	<% else %>
+
+<% if @planet.id == 2 %>
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>4,87<sup>.</sup>10<sup>24</sup>кг. (0,815 массы Земли)</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>12100 км. (0,949 диаметра Земли)</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>5,25 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>максимум +480 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>243 земных суток</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>0,723 а.е., то есть 108 млн.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>224,7 земных суток</th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>35 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>8,9 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+	<% else %>
+
+<% if @planet.id == 3 %>
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>5,976<sup>.</sup>10<sup>24</sup>кг.</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>12756 км.</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>5,518 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>максимум +58 <sup>o</sup>C, минимальная -90 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>23 часа 56 минут 4,1 секунды</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>1 а.е., то есть 150 млн.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>365,24219 суток</th></tr>
+		<tr align = "left" ><th>Площадь поверхности:</th><th>510,2 млн.км<sup>2</sup></th></tr>
+		<tr align = "left" ><th>Объем:</th><th>1,083<sup>.</sup>1012 км<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>29,8 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>9,8 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+<% else %>
+
+<% if @planet.id == 4 %>
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>6,4<sup>.</sup>10<sup>23</sup>кг. (0,107 массы Земли)</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>6670 км. (0,53 диаметра Земли)</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>3,95 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>-23 <sup>o</sup>C на большей части поверхности,</br> -150 <sup>o</sup>C на полюсах, 0 <sup>o</sup>C на экваторе</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>24,6229 часа</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>1,5237 а.е., то есть 228 млн.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>687 земных суток</th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>24,1 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>3,7 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+<% else %>
+
+<% if @planet.id == 5 %>
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>1,9<sup>.</sup>10<sup>27</sup>кг. (в 318 раз больше массы Земли)</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>143760 км. (в 11,2 раза больше диаметра Земли)</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>1,31 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>-160 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>9,93 часа</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>5,203 а.е., то есть 778 млн.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>11,86 лет</th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>13,1 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>25,8 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+<% else %>
+
+<% if @planet.id == 6 %>
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>5,68<sup>.</sup>10<sup>26</sup>кг. (95 раз больше массы Земли)</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>120420 км. (9,46 раза больше диаметра Земли)</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>0,71 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>-150 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>10,54 часа</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>9,54 а.е., то есть 1427 млн.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>29,46 года</th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>9,6 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>11,3 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+<% else %>
+
+<% if @planet.id == 7 %>
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>8,7<sup>.</sup>10<sup>25</sup>кг. (14,5 раз больше массы Земли)</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>51300 км. (4 раза больше диаметра Земли)</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>1,27 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>-220 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>17,23 часа</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>19,2 а.е., то есть 2,86 млрд.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>84 года</th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>6,8 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>9 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+<% else %>
+
+<% if @planet.id == 8 %>
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>1<sup>.</sup>10<sup>26</sup>кг. (17,2 раз больше массы Земли)</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>49500 км. (3,9 раза больше диаметра Земли)</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>1,77 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>-213 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Длина суток:</th><th>17,87 часа</th></tr>
+		<tr align = "left" ><th>Расстояние от Cолнца(среднее):</th><th>30 а.е., то есть 4,5 млрд.км.</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>165 лет</th></tr>
+		<tr align = "left" ><th>Скорость вращения по орбите:</th><th>5,4 км/c</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>11,6 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+<% else %>
+
+<% if @planet.id == 9 %> 
+
+	<table width = "100%", border = "2">
+		<tr align = "left" ><th>Масса:</th><th>2<sup>.</sup>10<sup>30</sup>кг.</th></tr>
+		<tr align = "left" ><th>Диаметр:</th><th>1392000 км.</th></tr>
+		<tr align = "left" ><th>Плотность:</th><th>1,416 г/см<sup>3</sup></th></tr>
+		<tr align = "left" ><th>Температура поверхности:</th><th>+5500 <sup>o</sup>C</th></tr>
+		<tr align = "left" ><th>Период оборота по орбите(лет):</th><th>88 земных суток</th></tr>
+		<tr align = "left" ><th>Светимость:</th><th>3,86<sup>.</sup>10<sup>23</sup> кВт</th></tr>
+		<tr align = "left" ><th>Ускорение свободного падения:</th><th>274 м/c<sup>2</sup></th></tr>
+	</table>
+</div>
+
+<% end %><% end %><% end %><% end %><% end %><% end %><% end %><% end %><% end %>
+
+	<p class = "center_main_text_for_planet_info", id="wt"><%= @planet.info %></p>
